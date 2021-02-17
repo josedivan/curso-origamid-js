@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>formulário</title>
+</head>
+
+<body>
+  <img src="/elementos estruturais/bikcraft.png" alt="bikcraft">
+  <h1>Bikcraft<br>Bicicletas Personalizadas</h1>
+
+  <form action="enviar.php" method="POST" name="form">
+    <div>
+      <label for="nome">Nome</label>
+      <input id="nome" name="nome" type="text" required>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="text" required>
+
+      <p>Ecolha a Bicicleta</p>
+      <input type="checkbox" id="Passeio" name="passeio" checked>
+      <label for="passeio">passeio</label>
+      <div>
+        <input type="checkbox" id="Corrida" name="Corrida" checked>
+        <label for="Corrida">Corrida</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Corrida" name="Corrida" checked>
+        <label for="Corrida">Social</label>
+      </div>
+
+
+    </div>
+    <label for="mensagem"> Mensagem</label>
+    <textarea id="mensagem"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+
+
+</html>
